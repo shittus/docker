@@ -12,7 +12,6 @@ RUN cd /var/www/html
 
 # download webfiles
 RUN wget https://github.com/shittus/docker/blob/PROD/techmax-main.zip
-
 # unzip folder
 RUN unzip main.zip
 
